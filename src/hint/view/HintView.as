@@ -69,6 +69,7 @@ package hint.view {
 					break;
 			}
 			this.addChild(activeHint as DisplayObject);
+			updateHint();
 		}
 
 		public function updateHint():void {

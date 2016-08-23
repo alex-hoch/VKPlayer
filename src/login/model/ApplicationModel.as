@@ -12,7 +12,7 @@ package login.model {
 		//  Constants
 		//--------------------------------------------------------------------------
 		public const redirectUrl:String = 'http://api.vkontakte.ru/blank.html';
-		public const appId:int = 1;
+		public const appId:int = 2246198;
 		public const display:String = 'popup';
 		public const settings:int = 8;
 		private var _accessToken:String;

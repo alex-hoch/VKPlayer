@@ -37,9 +37,9 @@ package hint.view.component {
 		//--------------------------------------------------------------------------
 		//  Public properties
 		//--------------------------------------------------------------------------
-		public function get hintWidth():Number { return WIDTH; }
+		public function get hintWidth():Number { return WIDTH + 3; }
 
-		public function get hintHeight():Number { return HEIGHT; }
+		public function get hintHeight():Number { return HEIGHT + 3; }
 
 		//--------------------------------------------------------------------------
 		//  Protected properties
@@ -52,7 +52,7 @@ package hint.view.component {
 		//--------------------------------------------------------------------------
 		//  Constructor
 		//--------------------------------------------------------------------------	
-		public function PlayHint(id:String = null) {
+		public function PlayHint() {
 			draw();
 
 			loader = new Loader();
@@ -64,7 +64,7 @@ package hint.view.component {
 		//  Public methods
 		//--------------------------------------------------------------------------
 		public function update(data:Object = null):void {
-			var sound:SoundData = data.sound as SoundData;
+			var sound:SoundData = SoundData(data);
 			var artist:String = sound.artist.length > 20 ? sound.artist.substr(0, 17) + '...' : sound.artist;
 			artistTF.text = artist;
 

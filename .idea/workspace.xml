@@ -11,7 +11,7 @@
     <file path="/fragment.js2" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951678195" ignored="false" />
     <file path="/VKPlayer.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470750056706" ignored="false" />
     <file path="/fragment.java" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470827361234" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471952564868" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471953364218" ignored="false" />
     <file path="D:/Work/Starcolony/BootFlash/src/main/flash/BootStarColony.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396344269613" ignored="false" />
     <file path="D:/Work/Starcolony/BootFlash/src/main/resources/config/parsley/context.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1397136988729" ignored="false" />
     <file path="/IServerRemoteService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470920239673" ignored="false" />
@@ -245,13 +245,13 @@
     <file path="/FriendsListPM.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470923234246" ignored="false" />
     <file path="/FriendViewData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470922438614" ignored="false" />
     <file path="/FriendView.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470924818529" ignored="false" />
-    <file path="/HintBuilder.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951154541" ignored="false" />
+    <file path="/HintBuilder.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471953257169" ignored="false" />
     <file path="/HintType.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471950178467" ignored="false" />
     <file path="/HintActionMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471950853131" ignored="false" />
     <file path="/PlayHint.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471950693387" ignored="false" />
-    <file path="/HintPM.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951739155" ignored="false" />
+    <file path="/HintPM.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471952852746" ignored="false" />
     <file path="/HintView.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951577834" ignored="false" />
-    <file path="/VolumeHint.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951534570" ignored="false" />
+    <file path="/VolumeHint.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471953055680" ignored="false" />
     <file path="/HintViewMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951703258" ignored="false" />
     <file path="/hintConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951880611" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -330,10 +330,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HintBuilder.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HintBuilder.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="75" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
+            <state line="77" column="87" selection-start="2959" selection-end="2959" vertical-scroll-proportion="0.64176244">
               <folding>
                 <element signature="e#99#136#0" expanded="true" />
               </folding>
@@ -422,10 +422,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationModel.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ApplicationModel.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/login/model/ApplicationModel.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="33" selection-start="428" selection-end="428" vertical-scroll-proportion="0.2835249">
+            <state line="19" column="66" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -434,7 +434,7 @@
       <file leaf-file-name="PlayHint.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hint/view/component/PlayHint.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="46" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+            <state line="41" column="67" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#98#124#0" expanded="true" />
               </folding>
@@ -442,10 +442,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DefaultMessageProcessor.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="mock:///DefaultMessageProcessor.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HintPM.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hint/view/pm/HintPM.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="58" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.0">
+            <state line="49" column="21" selection-start="1818" selection-end="1827" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -523,9 +532,10 @@
       <file leaf-file-name="HintView.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hint/view/HintView.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="69" column="35" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#88#114#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -563,7 +573,7 @@
       <file leaf-file-name="VolumeHint.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hint/view/component/VolumeHint.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="48" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.0">
+            <state line="34" column="67" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#100#126#0" expanded="true" />
               </folding>
@@ -583,7 +593,7 @@
       <file leaf-file-name="HintManager.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/HintManager.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="22" selection-start="6298" selection-end="6308" vertical-scroll-proportion="-39.16">
+            <state line="178" column="21" selection-start="6643" selection-end="6730" vertical-scroll-proportion="-12.4">
               <folding />
             </state>
           </provider>
@@ -774,22 +784,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/hint/view/component/PlayHint.as" />
         <option value="$PROJECT_DIR$/src/hint/message/HintActionMessage.as" />
         <option value="$PROJECT_DIR$/src/hint/view/component/IHintView.as" />
         <option value="$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/view/VolumeHint.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/component/VolumeHint.as" />
         <option value="$PROJECT_DIR$/src/hint/message/HintViewMessage.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/pm/HintPM.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/HintView.as" />
         <option value="$PROJECT_DIR$/xml/hintConfig.xml" />
         <option value="$PROJECT_DIR$/src/AllClasses.as" />
         <option value="$PROJECT_DIR$/src/application/player/controller/PlayActiveSoundCommand.as" />
         <option value="$PROJECT_DIR$/src/application/player/controller/ChangeVolumeValueCommand.as" />
         <option value="$PROJECT_DIR$/xml/playerConfig.xml" />
         <option value="$PROJECT_DIR$/src/ConfigForParsley.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as" />
         <option value="$PROJECT_DIR$/src/login/model/ApplicationModel.as" />
+        <option value="$PROJECT_DIR$/src/hint/view/pm/HintPM.as" />
+        <option value="$PROJECT_DIR$/src/hint/view/HintView.as" />
+        <option value="$PROJECT_DIR$/src/hint/view/component/PlayHint.as" />
+        <option value="$PROJECT_DIR$/src/hint/view/component/VolumeHint.as" />
+        <option value="$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as" />
       </list>
     </option>
   </component>
@@ -1704,7 +1714,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="167" />
+      <option name="time" value="172" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1712,54 +1722,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hint/message/HintActionMessage.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="77" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/playerConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="55" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/player/controller/ChangeVolumeValueCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfigForParsley.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="110" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/player/controller/PlayActiveSoundCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="43" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="75" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#99#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/settings/model/PlayerSettings.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="66" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
@@ -1825,8 +1787,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/login/model/ApplicationModel.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="428" selection-end="428" vertical-scroll-proportion="0.2835249">
+        <state line="19" column="66" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hint/view/HintView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="35" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#88#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hint/view/pm/HintPM.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="21" selection-start="1818" selection-end="1827" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hint/view/component/PlayHint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="67" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#98#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hint/view/component/VolumeHint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="67" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#100#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/HintManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="21" selection-start="6643" selection-end="6730" vertical-scroll-proportion="-12.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="87" selection-start="2959" selection-end="2959" vertical-scroll-proportion="0.64176244">
+          <folding>
+            <element signature="e#99#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,9 +30,9 @@ package hint.view.component {
 		//--------------------------------------------------------------------------
 		//  Public properties
 		//--------------------------------------------------------------------------
-		public function get hintWidth():Number { return WIDTH; }
+		public function get hintWidth():Number { return WIDTH + 3; }
 
-		public function get hintHeight():Number { return HEIGHT; }
+		public function get hintHeight():Number { return HEIGHT + 3; }
 
 		//--------------------------------------------------------------------------
 		//  Protected properties
@@ -45,15 +45,15 @@ package hint.view.component {
 		//--------------------------------------------------------------------------
 		//  Constructor
 		//--------------------------------------------------------------------------	
-		public function VolumeHint(id:String = null) {
-			super(id);
+		public function VolumeHint() {
+			draw();
 		}
 
 		//--------------------------------------------------------------------------
 		//  Public methods
 		//--------------------------------------------------------------------------
 		public function update(data:Object = null):void {
-			var value:Number = data.volume as Number;
+			var value:Number = Number(data);
 
 			var percent:int = 100 * value;
 

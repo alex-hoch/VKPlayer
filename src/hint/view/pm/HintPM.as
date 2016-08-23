@@ -54,6 +54,7 @@ package hint.view.pm {
 			} else {
 				messageType = HintViewMessage.SHOW_HINT;
 			}
+			currentHintType = hintType;
 			_dispatcher(new HintViewMessage(messageType));
 		}
 

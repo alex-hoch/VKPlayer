@@ -15,7 +15,9 @@ package hint.view.builder {
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
+	import flash.events.TimerEvent;
 	import flash.geom.Rectangle;
+	import flash.utils.Timer;
 
 	import hint.message.HintActionMessage;
 	import hint.view.HintView;
@@ -30,6 +32,7 @@ package hint.view.builder {
 		//--------------------------------------------------------------------------
 		private var currentHintView:HintView;
 		private var hintWindow:NativeWindow;
+		private var timer:Timer;
 
 		//--------------------------------------------------------------------------
 		//  Public properties
@@ -47,13 +50,18 @@ package hint.view.builder {
 		//  Constructor
 		//--------------------------------------------------------------------------	
 		public function HintBuilder() {
-			super();
+			timer = new Timer(3000, 1);
+			timer.addEventListener(TimerEvent.TIMER_COMPLETE, timerCompleteHandler);
 		}
 
 		//--------------------------------------------------------------------------
 		//  Public methods
 		//--------------------------------------------------------------------------
 		public function showHint(message:HintActionMessage):void {
+			timer.reset();
+			if (!currentHintView) {
+				currentHintView = _viewRegisterManager.createView(HintView) as HintView;
+			}
 			if (!hintWindow) {
 				var options:NativeWindowInitOptions = new NativeWindowInitOptions();
 				options.maximizable = options.minimizable = options.resizable = false;
@@ -66,9 +74,6 @@ package hint.view.builder {
 				hintWindow.stage.align = StageAlign.TOP_LEFT;
 				hintWindow.stage.color = 0xEEEEEE;
 				hintWindow.addEventListener(Event.CLOSING, closingHandler);
-			}
-			if (!currentHintView) {
-				currentHintView = _viewRegisterManager.createView(HintView) as HintView;
 				hintWindow.stage.addChild(currentHintView);
 			}
 			currentHintView.hintPM.update(message.hintType, message.data);
@@ -78,6 +83,8 @@ package hint.view.builder {
 			hintWindow.x = bounds.width - hintWindow.width - 5;
 			hintWindow.y = bounds.height - hintWindow.height - 5;
 			hintWindow.activate();
+
+			timer.start();
 			/*
 
 
@@ -105,6 +112,11 @@ package hint.view.builder {
 		//--------------------------------------------------------------------------
 		private function closingHandler(event:Event):void {
 			hintWindow.removeEventListener(Event.CLOSING, closingHandler);
+			hintWindow = null;
+		}
+
+		private function timerCompleteHandler(event:TimerEvent):void {
+			hintWindow.close();
 			hintWindow = null;
 		}
 
