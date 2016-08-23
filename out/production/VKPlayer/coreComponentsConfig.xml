@@ -1,0 +1,37 @@
+<objects
+		xmlns="http://www.spicefactory.org/parsley"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+	<!-- commands -->
+
+	<!-- services -->
+
+	<!-- helpers -->
+	<object id="viewRegisterManager" type="core.view.ViewRegistrationManager">
+		<property name="context" type-ref="org.spicefactory.parsley.core.context.Context"/>
+	</object>
+
+	<object id="fileSystemManager" type="util.FileSystemManager">
+
+	</object>
+
+    <object type="util.GlobalHotkeyManager">
+        <init method="init"/>
+        <destroy method="destroy"/>
+        <message-dispatcher property="dispatcher"/>
+        <property name="playerService" id-ref="playerService"/>
+    </object>
+
+    <object id="application" type="application.Application">
+        <message-dispatcher property="dispatcher"/>
+        <property name="settingsService" id-ref="settingsService"/>
+    </object>
+
+	<!-- builder -->
+
+	<!-- pm -->
+
+	<!-- view -->
+
+</objects>

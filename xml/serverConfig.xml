@@ -1,0 +1,30 @@
+<objects
+		xmlns="http://www.spicefactory.org/parsley"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+	<!-- commands -->
+	<map-command selector="sendRequest" message-type="server.message.ServerActionMessage">
+        <command type="server.controller.SendRequestToServerCommand">
+            <property name="applicationService" id-ref="applicationService"/>
+        </command>
+	</map-command>
+
+
+	<!-- services -->
+	<object id="serverRemoteService" type="server.service.impl.ServerRemoteService">
+        <message-dispatcher property="dispatcher"/>
+        <command-result method="serverResponse" selector="sendRequest" type="server.message.ServerActionMessage"/>
+	</object>
+
+    <object id="serverDataConverter" type="server.service.impl.ServerDataConverter">
+
+    </object>
+
+	<!-- builder -->
+
+	<!-- pm -->
+
+	<!-- view -->
+
+</objects>

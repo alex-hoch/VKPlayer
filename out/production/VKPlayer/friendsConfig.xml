@@ -1,0 +1,37 @@
+<objects
+        xmlns="http://www.spicefactory.org/parsley"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+    <!-- commands -->
+    <map-command selector="openFriendsList" message-type="friends.message.FriendsActionMessage">
+        <command type="friends.controller.OpenFriendsListCommand">
+            <property name="friendsService" id-ref="friendsService"/>
+            <property name="applicationService" id-ref="applicationService"/>
+            <property name="serverDataConverter" id-ref="serverDataConverter"/>
+            <property name="serverRemoteService" id-ref="serverRemoteService"/>
+        </command>
+    </map-command>
+
+    <!-- services -->
+    <object id="friendsService" type="friends.service.FriendsService"/>
+
+    <!-- helpers -->
+
+    <!-- builder -->
+    <object type="friends.view.builder.FriendsListViewBuilder">
+        <property name="viewRegisterManager" id-ref="viewRegisterManager"/>
+        <command-result method="openFriendsList" selector="openFriendsList" type="friends.message.FriendsActionMessage"/>
+    </object>
+
+    <!-- pm -->
+    <dynamic-object id="friendsListPM" type="friends.view.pm.FriendsListPM">
+        <message-dispatcher property="dispatcher"/>
+    </dynamic-object>
+
+    <!-- view -->
+    <dynamic-object type="friends.view.FriendsListView">
+        <property name="friendsListPM" id-ref="friendsListPM"/>
+    </dynamic-object>
+
+</objects>

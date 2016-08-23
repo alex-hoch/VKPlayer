@@ -1,0 +1,195 @@
+<objects
+        xmlns="http://www.spicefactory.org/parsley"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+    <!-- commands -->
+    <command-factory id="initPlaylistCommand">
+        <command type="application.playlist.controller.InitPlaylistCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="settingsService" id-ref="settingsService"/>
+            <property name="applicationService" id-ref="applicationService"/>
+        </command>
+    </command-factory>
+
+    <map-command selector="loadUserPlaylist" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-ref id-ref="loadUserPlaylistCommand"/>
+    </map-command>
+
+    <command-factory id="loadUserPlaylistCommand">
+        <command type="application.playlist.controller.soundContextMenu.LoadUserPlaylistCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="applicationService" id-ref="applicationService"/>
+            <property name="serverRemoteService" id-ref="serverRemoteService"/>
+            <property name="serverDataConverter" id-ref="serverDataConverter"/>
+        </command>
+    </command-factory>
+
+    <map-command selector="createPlaylist" message-type="application.playlist.message.PlaylistMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.CreatePlaylistCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+                <property name="fileSystemManager" id-ref="fileSystemManager"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="selectSound" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.SelectSoundCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="chooseSound" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.ChooseSoundCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="choosePlaylist" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.ChoosePlaylistCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="updateScrollPosition" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.UpdatePlaylistScrollIndexCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="copySoundTo" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.soundContextMenu.CopySoundToAnotherPlaylistCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+                <property name="applicationService" id-ref="applicationService"/>
+                <property name="serverRemoteService" id-ref="serverRemoteService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <command-factory id="updatePlaylistsCommand">
+        <command type="application.playlist.controller.UpdatePlaylistsCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="playlistsDataHelper" id-ref="playlistsDataHelper"/>
+        </command>
+    </command-factory>
+
+    <map-command selector="deleteSound" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.soundContextMenu.DeleteSoundCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+                <property name="serverRemoteService" id-ref="serverRemoteService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="showLyrics" message-type="application.playlist.message.PlaylistActionMessage">
+        <command type="application.playlist.controller.soundContextMenu.ShowLyricsCommand">
+            <property name="playlistsService" id-ref="playlistsService"/>
+            <property name="serverRemoteService" id-ref="serverRemoteService"/>
+        </command>
+    </map-command>
+
+    <map-command selector="openOwnerPage" message-type="application.playlist.message.PlaylistActionMessage">
+        <command type="application.playlist.controller.soundContextMenu.OpenOwnerPageCommand"/>
+    </map-command>
+
+
+
+    <map-command selector="sortPlaylist" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.playlistContextMenu.SortPlaylistCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="clearPlaylist" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.playlistContextMenu.ClearPlaylistCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="deletePlaylist" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.playlistContextMenu.DeletePlaylistCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+                <property name="fileSystemManager" id-ref="fileSystemManager"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="addSoundToQueue" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.AddSoundToQueueCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="removeSoundFromQueue" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.RemoveSoundFromQueueCommand">
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <!-- services -->
+    <object id="playlistsService" type="application.playlist.service.impl.PlaylistsService">
+
+    </object>
+
+    <object id="playlistsDataHelper" type="application.playlist.service.impl.PlaylistsDataHelper">
+        <property name="playlistsService" id-ref="playlistsService"/>
+    </object>
+
+    <!-- builder -->
+    <object type="application.playlist.view.builder.PlaylistBuilder">
+        <property name="viewRegisterManager" id-ref="viewRegisterManager"/>
+        <message-handler method="createPlaylist" type="application.playlist.message.PlaylistMessage" selector="initPlaylist"/>
+    </object>
+
+    <!-- pm -->
+    <dynamic-object id="playlistPM" type="application.playlist.view.pm.PlaylistPM">
+        <message-dispatcher property="dispatcher"/>
+        <message-handler method="updatePlaylists" selector="updatePlaylists" type="application.playlist.message.PlaylistMessage"
+                         message-properties="playlistsVO"/>
+        <message-handler method="playSound" selector="playSound" type="application.player.message.PlayerMessage"
+                         message-properties="soundData"/>
+        <command-result method="stopPlaying" selector="stopPlaying" type="application.player.message.PlayerActionMessage"/>
+    </dynamic-object>
+
+    <!-- view -->
+    <dynamic-object type="application.playlist.view.PlaylistView">
+        <property name="playlistPM" id-ref="playlistPM"/>
+        <message-handler method="updatePlaylist" selector="updatePlaylistView"
+                         type="application.playlist.message.PlaylistViewMessage"/>
+    </dynamic-object>
+
+</objects>

@@ -1,0 +1,59 @@
+<objects
+		xmlns="http://www.spicefactory.org/parsley"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+	<!-- commands -->
+	<map-command message-type="login.message.LoginActionMessage" selector="login">
+		<command type="login.controller.LoginCommand">
+			<property name="applicationService" id-ref="applicationService"/>
+		</command>
+	</map-command>
+
+	<map-command message-type="login.message.LoginActionMessage" selector="loginCompleted">
+		<command-sequence>
+			<command type="login.controller.LoginCompletedCommand">
+				<property name="fileSystemManager" id-ref="fileSystemManager"/>
+				<property name="applicationService" id-ref="applicationService"/>
+			</command>
+			<command-ref id-ref="loadSettingsCommand"/>
+			<command-ref id-ref="initSearcherCommand"/>
+			<command-ref id-ref="initPlayerCommand"/>
+			<command-ref id-ref="initPlaylistCommand"/>
+            <command-ref id-ref="loadUserPlaylistCommand"/>
+            <command type="application.playlist.controller.LoadLocalPlaylistsCommand">
+                <property name="settingsService" id-ref="settingsService"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+                <property name="fileSystemManager" id-ref="fileSystemManager"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+		</command-sequence>
+	</map-command>
+
+    <map-command selector="saveUserPlaylist" message-type="application.playlist.message.PlaylistActionMessage">
+        <command type="application.playlist.controller.SaveLocalPlaylistsCommand">
+            <property name="playlistsService" id-ref="playlistsService"/>
+            <property name="fileSystemManager" id-ref="fileSystemManager"/>
+        </command>
+    </map-command>
+
+	<!-- services -->
+	<object id="applicationService" type="login.service.impl.ApplicationService"/>
+
+	<!-- builder -->
+	<object type="login.view.builder.LoginBuilder">
+		<property name="viewRegisterManager" id-ref="viewRegisterManager"/>
+		<command-result method="buildLoginView" type="login.message.LoginActionMessage" selector="login"/>
+	</object>
+
+	<!-- pm -->
+	<object id="loginPM" type="login.view.pm.LoginPM">
+		<message-dispatcher property="dispatcher"/>
+	</object>
+
+	<!-- view -->
+	<dynamic-object type="login.view.LoginView">
+		<property name="loginPM" id-ref="loginPM"/>
+	</dynamic-object>
+
+</objects>

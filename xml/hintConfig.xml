@@ -1,0 +1,30 @@
+<objects
+        xmlns="http://www.spicefactory.org/parsley"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+    <!-- commands -->
+
+    <!-- services -->
+
+    <!-- helpers -->
+
+    <!-- builder -->
+    <object type="hint.view.builder.HintBuilder">
+        <property name="viewRegisterManager" id-ref="viewRegisterManager"/>
+        <message-handler method="showHint" selector="showHint" type="hint.message.HintActionMessage"/>
+    </object>
+
+    <!-- pm -->
+    <dynamic-object id="hintPM" type="hint.view.pm.HintPM">
+        <message-dispatcher property="dispatcher"/>
+    </dynamic-object>
+
+    <!-- view -->
+    <dynamic-object type="hint.view.HintView">
+        <property name="hintPM" id-ref="hintPM"/>
+        <message-handler method="showHint" selector="showHint" type="hint.message.HintViewMessage"/>
+        <message-handler method="updateHint" selector="updateHint" type="hint.message.HintViewMessage"/>
+    </dynamic-object>
+
+</objects>

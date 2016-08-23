@@ -1,0 +1,35 @@
+<objects
+        xmlns="http://www.spicefactory.org/parsley"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+    <!-- commands -->
+    <command-factory id="loadSettingsCommand">
+        <command type="settings.controller.LoadSettingsCommand">
+            <property name="application" id-ref="application"/>
+            <property name="playerService" id-ref="playerService"/>
+            <property name="settingsService" id-ref="settingsService"/>
+            <property name="fileSystemManager" id-ref="fileSystemManager"/>
+        </command>
+    </command-factory>
+
+    <map-command selector="saveSettings" message-type="settings.message.SettingsActionMessage">
+        <command type="settings.controller.SaveSettingsCommand">
+            <property name="playerService" id-ref="playerService"/>
+            <property name="settingsService" id-ref="settingsService"/>
+            <property name="playlistsService" id-ref="playlistsService"/>
+            <property name="fileSystemManager" id-ref="fileSystemManager"/>
+        </command>
+    </map-command>
+
+
+    <!-- services -->
+    <object id="settingsService" type="settings.service.impl.SettingsService"/>
+
+    <!-- builder -->
+
+    <!-- pm -->
+
+    <!-- view -->
+
+</objects>

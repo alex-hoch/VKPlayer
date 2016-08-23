@@ -1,0 +1,69 @@
+<objects
+        xmlns="http://www.spicefactory.org/parsley"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+    <!-- commands -->
+    <map-command selector="showDownloader" message-type="downloader.message.DownloaderActionMessage">
+        <command type="downloader.controller.ShowDownloaderCommand">
+            <property name="downloaderDataHelper" id-ref="downloaderDataHelper"/>
+        </command>
+    </map-command>
+
+    <map-command selector="addSoundToDownLoader" message-type="downloader.message.DownloaderActionMessage">
+        <command type="downloader.controller.AddSoundToDownloaderCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="playlistsService" id-ref="playlistsService"/>
+            <property name="downloaderService" id-ref="downloaderService"/>
+            <property name="downloaderDataHelper" id-ref="downloaderDataHelper"/>
+        </command>
+    </map-command>
+
+    <map-command selector="addPlaylistToDownLoader" message-type="downloader.message.DownloaderActionMessage">
+        <command type="downloader.controller.AddPlaylistToDownloaderCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="playlistsService" id-ref="playlistsService"/>
+            <property name="downloaderService" id-ref="downloaderService"/>
+            <property name="downloaderDataHelper" id-ref="downloaderDataHelper"/>
+        </command>
+    </map-command>
+    <map-command selector="saveSound" message-type="downloader.message.DownloaderActionMessage">
+        <command type="downloader.controller.SaveSoundCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="downloaderService" id-ref="downloaderService"/>
+            <property name="downloaderDataHelper" id-ref="downloaderDataHelper"/>
+        </command>
+    </map-command>
+
+    <!-- services -->
+    <object id="downloaderService" type="downloader.service.DownloaderService">
+
+    </object>
+
+    <!-- helpers -->
+    <object id="downloaderDataHelper" type="downloader.service.DownloaderDataHelper">
+        <property name="downloaderService" id-ref="downloaderService"/>
+    </object>
+
+    <!-- builder -->
+    <object type="downloader.view.builder.DownloaderBuilder">
+        <property name="viewRegisterManager" id-ref="viewRegisterManager"/>
+        <message-handler method="showDownloaderWindow" selector="updateDownloader" message-properties="downloaderVO"
+                         type="downloader.message.DownloaderActionMessage"/>
+        <command-result method="showDownloaderWindow" selector="showDownloader" type="downloader.message.DownloaderActionMessage"/>
+    </object>
+
+    <!-- pm -->
+    <dynamic-object id="downloaderPM" type="downloader.view.pm.DownloaderPM">
+        <message-dispatcher property="dispatcher"/>
+        <message-handler method="updateData" selector="updateDownloader" message-properties="downloaderVO"
+                         type="downloader.message.DownloaderActionMessage"/>
+    </dynamic-object>
+
+    <!-- view -->
+    <dynamic-object type="downloader.view.DownloaderView">
+        <property name="downloaderPM" id-ref="downloaderPM"/>
+        <message-handler method="update" selector="updateDownloader" type="downloader.message.DownloaderViewMessage"/>
+    </dynamic-object>
+
+</objects>

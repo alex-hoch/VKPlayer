@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dependencies" type="flex">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/parsley-core-3.0.0/dependencies" />
+      <root url="file://$PROJECT_DIR$/lib/parsley-core-3.0.0/release" />
+      <root url="file://$PROJECT_DIR$/lib/parsley-resource-params-1.0.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/parsley-core-3.0.0/dependencies" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/parsley-core-3.0.0/release" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/parsley-resource-params-1.0.0" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,118 @@
+<objects
+        xmlns="http://www.spicefactory.org/parsley"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.spicefactory.org/parsley http://www.spicefactory.org/parsley/schema/3.0/parsley-core.xsd">
+
+    <!-- commands -->
+    <command-factory id="initPlayerCommand">
+        <command type="application.player.controller.InitPlayerCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="playerService" id-ref="playerService"/>
+            <property name="settingsService" id-ref="settingsService"/>
+            <property name="playerDataHelper" id-ref="playerDataHelper"/>
+        </command>
+    </command-factory>
+
+    <map-command selector="togglePlay" message-type="application.player.message.PlayerActionMessage">
+        <command-sequence>
+            <command type="application.player.controller.TogglePlayCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playerService" id-ref="playerService"/>
+                <property name="playerDataHelper" id-ref="playerDataHelper"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="stopPlaying" message-type="application.player.message.PlayerActionMessage">
+        <command-sequence>
+            <command type="application.player.controller.StopPlayingCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playerService" id-ref="playerService"/>
+                <property name="playerDataHelper" id-ref="playerDataHelper"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <command-factory id="playActiveSoundCommand">
+        <command-sequence>
+            <command type="application.player.controller.PlayActiveSoundCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playerService" id-ref="playerService"/>
+                <property name="playerDataHelper" id-ref="playerDataHelper"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </command-factory>
+
+    <map-command selector="playSound" message-type="application.player.message.PlayerActionMessage">
+        <command-ref id-ref="playActiveSoundCommand"/>
+    </map-command>
+
+    <map-command selector="playNextSound" message-type="application.player.message.PlayerActionMessage">
+        <command-sequence>
+            <command type="application.player.controller.PlayNextSoundCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="playActiveSoundCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="playPreviousSound" message-type="application.player.message.PlayerActionMessage">
+        <command-sequence>
+            <command type="application.player.controller.PlayPreviousSoundCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="playActiveSoundCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="changeVolumeValue" message-type="application.player.message.PlayerActionMessage">
+        <command type="application.player.controller.ChangeVolumeValueCommand">
+            <message-dispatcher property="dispatcher"/>
+            <property name="playerService" id-ref="playerService"/>
+            <property name="playerDataHelper" id-ref="playerDataHelper"/>
+        </command>
+    </map-command>
+
+    <!-- services -->
+    <object id="playerService" type="application.player.service.PlayerService"/>
+
+    <object id="playerDataHelper" type="application.player.service.PlayerDataHelper">
+        <property name="playerService" id-ref="playerService"/>
+        <property name="playlistsService" id-ref="playlistsService"/>
+    </object>
+
+    <!-- builder -->
+    <object type="application.player.view.builder.PlayerBuilder">
+        <property name="viewRegisterManager" id-ref="viewRegisterManager"/>
+        <message-handler method="createPlayer" type="application.player.message.PlayerActionMessage"
+                         selector="initPlayer"
+                         message-properties="initVO"/>
+    </object>
+
+    <!-- pm -->
+    <dynamic-object id="playerPM" type="application.player.view.pm.PlayerPM">
+        <message-dispatcher property="dispatcher"/>
+        <command-result method="updateData" selector="changeVolumeValue"
+                        type="application.player.message.PlayerActionMessage"/>
+        <message-handler method="updatePlayerState" message-properties="playerStateVO" selector="updatePlayerState"
+                         type="application.player.message.PlayerActionMessage"/>
+    </dynamic-object>
+
+    <!-- view -->
+    <dynamic-object type="application.player.view.PlayerView">
+        <property name="playerPM" id-ref="playerPM"/>
+        <message-handler method="updatePlayer" selector="updatePlayer"
+                         type="application.player.message.PlayerViewMessage"/>
+        <message-handler method="updateState" selector="updatePlayerState"
+                         type="application.player.message.PlayerViewMessage"/>
+    </dynamic-object>
+
+</objects>
