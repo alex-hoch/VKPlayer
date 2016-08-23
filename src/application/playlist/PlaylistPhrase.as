@@ -24,6 +24,7 @@ package application.playlist {
 		static public const SOUND_NAME:String = 'записами';
 		static public const GENRE:String = 'жанрами';
 		static public const DURATION:String = 'тривалістю';
+		static public const REFRESH:String = 'Оновити';
 
 		//--------------------------------------------------------------------------
 		//  Variables

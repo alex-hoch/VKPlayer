@@ -6,6 +6,8 @@
  */
 package application.playlist.controller.playlistContextMenu {
 	import application.playlist.message.PlaylistActionMessage;
+	import application.playlist.model.ActionData;
+	import application.playlist.model.ActionType;
 	import application.playlist.service.IPlaylistsService;
 
 	public class SortPlaylistCommand {
@@ -43,6 +45,10 @@ package application.playlist.controller.playlistContextMenu {
 		//--------------------------------------------------------------------------
 		public function execute(message:PlaylistActionMessage):void {
 			_playlistsService.sortPlaylistByType(message.id);
+			var action:ActionData = new ActionData();
+			action.type = ActionType.SORT;
+			action.sortingId = message.id;
+			_playlistsService.openedPlaylist.actionsList.push(action);
 		}
 
 		//--------------------------------------------------------------------------

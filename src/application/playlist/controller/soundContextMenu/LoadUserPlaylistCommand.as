@@ -6,6 +6,8 @@
  */
 
 package application.playlist.controller.soundContextMenu {
+	import application.playlist.service.IPlaylistsService;
+
 	import core.command.BaseCommand;
 
 	import friends.model.UserModel;
@@ -16,6 +18,7 @@ package application.playlist.controller.soundContextMenu {
 	import application.playlist.message.PlaylistMessage;
 	import application.playlist.model.ActionData;
 	import application.playlist.model.ActionType;
+
 	import server.service.IServerDataConverter;
 	import server.service.IServerRemoteService;
 
@@ -29,11 +32,13 @@ package application.playlist.controller.soundContextMenu {
 		//--------------------------------------------------------------------------
 		private var _callback:Function;
 		private var _dispatcher:Function;
+		private var _playlistsService:IPlaylistsService;
 		private var _applicationService:IApplicationService;
 		private var _serverRemoteService:IServerRemoteService;
 		private var _serverDataConverter:IServerDataConverter;
 
 		private var userId:Number;
+		private var playlistId:Number;
 
 		//--------------------------------------------------------------------------
 		//  Public properties
@@ -41,6 +46,8 @@ package application.playlist.controller.soundContextMenu {
 		public function set callback(value:Function):void { _callback = value; }
 
 		public function set dispatcher(value:Function):void { _dispatcher = value; }
+
+		public function set playlistsService(value:IPlaylistsService):void { _playlistsService = value; }
 
 		public function set applicationService(value:IApplicationService):void { _applicationService = value; }
 
@@ -70,6 +77,7 @@ package application.playlist.controller.soundContextMenu {
 			lockApplication('loading');
 
 			userId = message.userId;
+			playlistId = message.playlistId;
 			_serverRemoteService.loadUserPlaylist(userId, _callback);
 		}
 
@@ -81,21 +89,26 @@ package application.playlist.controller.soundContextMenu {
 			for (var i:int = 0; i < length; i++) {
 				sounds[sounds.length] = _serverDataConverter.convertSoundData(response[i]);
 			}
-			var message:PlaylistMessage = new PlaylistMessage(PlaylistMessage.CREATE_PLAYLIST);
-			if(userId == _applicationService.userId) {
-				message.id = Settings.DEFAULT_PLAYLIST_ID;
-				message.title = Settings.DEFAULT_PLAYLIST_NAME;
-			} else {
-				message.title = userInfo.name;
-			}
-			message.sounds = sounds;
-			var action:ActionData = new ActionData();
-			action.type = ActionType.LOAD_USER_PLAYLIST;
-			action.id = userId;
-			message.action = action;
-			_dispatcher(message);
 
-			unlockApplication();
+			if (playlistId) {
+				_playlistsService.fillPlaylist(playlistId, sounds);
+			} else {
+				var message:PlaylistMessage = new PlaylistMessage(PlaylistMessage.CREATE_PLAYLIST);
+				if (userId == _applicationService.userId) {
+					message.id = Settings.DEFAULT_PLAYLIST_ID;
+					message.title = Settings.DEFAULT_PLAYLIST_NAME;
+				} else {
+					message.title = userInfo.name;
+				}
+				message.sounds = sounds;
+				var action:ActionData = new ActionData();
+				action.type = ActionType.LOAD_USER_PLAYLIST;
+				action.userId = userId;
+				message.action = action;
+				_dispatcher(message);
+
+				unlockApplication();
+			}
 		}
 
 		//--------------------------------------------------------------------------

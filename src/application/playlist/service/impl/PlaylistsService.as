@@ -126,7 +126,7 @@ package application.playlist.service.impl {
 			playlistData.id = id;
 			playlistData.title = title || generateDefaultTitle();
 			playlistData.sounds = sounds || [];
-			playlistData.actionsList = new Vector.<ActionData>();
+			playlistData.actionsList = [];
 			if (action) {
 				playlistData.actionsList[playlistData.actionsList.length] = action;
 			}
@@ -247,7 +247,13 @@ package application.playlist.service.impl {
 		}
 
 		public function clearPlaylist(playlistId:Number):void {
-			getPlaylistById(playlistId).sounds = [];
+			var playlistData:PlaylistData = getPlaylistById(playlistId);
+			playlistData.sounds = [];
+			playlistData.actionsList = [];
+		}
+
+		public function fillPlaylist(playlistId:Number, sounds:Array):void {
+			getPlaylistById(playlistId).sounds = sounds;
 		}
 
 		public function addSoundToQueue(soundId:Number, playlistId:Number):void {
@@ -307,19 +313,18 @@ package application.playlist.service.impl {
 				isFree = true;
 				for (var i:int = 0; i < length; i++) {
 					playlistData = playlistsModel.allPlaylists[i];
-					if (playlistData.title == 'application.playlist ' + counter) {
+					if (playlistData.title == 'playlist ' + counter) {
 						isFree = false;
 						counter++;
 						break;
 					}
 				}
 			}
-			return 'application.playlist ' + counter;
+			return 'playlist ' + counter;
 		}
 
 		//--------------------------------------------------------------------------
 		//  Handlers 
 		//--------------------------------------------------------------------------
-
 	}
 }

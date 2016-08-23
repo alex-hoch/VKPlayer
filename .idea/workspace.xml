@@ -8,14 +8,14 @@
     <ignored path="VKPlayer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="D:/Work/Starcolony/.idea/workspace.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1397145718707" ignored="false" />
-    <file path="/fragment.js2" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951678195" ignored="false" />
+    <file path="/fragment.js2" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954788998" ignored="false" />
     <file path="/VKPlayer.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470750056706" ignored="false" />
     <file path="/fragment.java" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470827361234" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471953364218" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471964458136" ignored="false" />
     <file path="D:/Work/Starcolony/BootFlash/src/main/flash/BootStarColony.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396344269613" ignored="false" />
     <file path="D:/Work/Starcolony/BootFlash/src/main/resources/config/parsley/context.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1397136988729" ignored="false" />
     <file path="/IServerRemoteService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470920239673" ignored="false" />
-    <file path="/ServerRemoteService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470728828728" ignored="false" />
+    <file path="/ServerRemoteService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471956995600" ignored="false" />
     <file path="/ServerRequest.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396345774827" ignored="false" />
     <file path="/SendRequestToServerCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470662982429" ignored="false" />
     <file path="/ServerActionMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396345435294" ignored="false" />
@@ -24,21 +24,21 @@
     <file path="/AllClasses.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470907531954" ignored="false" />
     <file path="/searcherConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470389746176" ignored="false" />
     <file path="/SearchCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396351010712" ignored="false" />
-    <file path="/PlaylistActionMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470830944489" ignored="false" />
+    <file path="/PlaylistActionMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954759954" ignored="false" />
     <file path="/CreatePlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470823197393" ignored="false" />
-    <file path="/PlaylistData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470734357411" ignored="false" />
+    <file path="/PlaylistData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471964369625" ignored="false" />
     <file path="/IPlaylistService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396350633029" ignored="false" />
-    <file path="/PlaylistsService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470908396045" ignored="false" />
+    <file path="/PlaylistsService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471957570198" ignored="false" />
     <file path="/PlaylistsModel.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470831281521" ignored="false" />
-    <file path="/a.dummy" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470925510994" ignored="false" />
-    <file path="/SearchSoundsCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470729922964" ignored="false" />
-    <file path="/playlistConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470835180377" ignored="false" />
+    <file path="/a.dummy" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471964344553" ignored="false" />
+    <file path="/SearchSoundsCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471955616097" ignored="false" />
+    <file path="/playlistConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471957395730" ignored="false" />
     <file path="/InitPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470748252227" ignored="false" />
     <file path="/loginConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470817561233" ignored="false" />
     <file path="D:/Work/Starcolony/BootFlash/build.properties" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1397049326757" ignored="false" />
     <file path="/PlaylistBuilder.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396353906018" ignored="false" />
-    <file path="/PlaylistView.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470908710978" ignored="false" />
-    <file path="/PlaylistPM.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470908767030" ignored="false" />
+    <file path="/PlaylistView.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954729466" ignored="false" />
+    <file path="/PlaylistPM.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954750483" ignored="false" />
     <file path="D:/Work/Starcolony/Flash/src/main/flash/ru/mail/starcolony/core/utils/js/JSCallback.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396357497510" ignored="false" />
     <file path="/JSCallback.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396355599992" ignored="false" />
     <file path="D:/Work/Starcolony/Flash/src/main/flash/ru/mail/starcolony/friendBanner/controller/InviteFriendsFromBannerCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396356192144" ignored="false" />
@@ -47,14 +47,14 @@
     <file path="/GetDynamicModelsCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396452716045" ignored="false" />
     <file path="D:/Work/Starcolony/Flash/src/main/flash/ru/mail/starcolony/friendBanner/controller/OpenFriendBannerWindowCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396356192144" ignored="false" />
     <file path="/OpenFriendBannerWindowCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396356013505" ignored="false" />
-    <file path="/Dummy.txt" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470827365156" ignored="false" />
-    <file path="/LoadUserPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470920095161" ignored="false" />
+    <file path="/Dummy.txt" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471953569345" ignored="false" />
+    <file path="/LoadUserPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471956379330" ignored="false" />
     <file path="/IApplicationService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396357652800" ignored="false" />
     <file path="/IServerDataConverter.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470919750433" ignored="false" />
     <file path="/ServerDataConverter.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470920778352" ignored="false" />
     <file path="/SoundData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470671333446" ignored="false" />
     <file path="/UserData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396358637905" ignored="false" />
-    <file path="/PlaylistSoundView.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470832057698" ignored="false" />
+    <file path="/PlaylistSoundView.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954264794" ignored="false" />
     <file path="/PlaylistSoundData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470825580763" ignored="false" />
     <file path="D:/Work/Starcolony/Flash/src/main/flash/ru/mail/starcolony/achievement/info/service/IAchievementHelper.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1397042589142" ignored="false" />
     <file path="/IAchievementHelper.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396450839961" ignored="false" />
@@ -83,7 +83,7 @@
     <file path="D:/Work/Starcolony/JAVA-DataGrid/src/main/resources/starcolony-pof-config.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396860165114" ignored="false" />
     <file path="/PlaylistMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396867390403" ignored="false" />
     <file path="/PlaylistViewMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396866652815" ignored="false" />
-    <file path="/PlaylistEvent.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470908674234" ignored="false" />
+    <file path="/PlaylistEvent.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954683043" ignored="false" />
     <file path="/SelectSoundCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470412005620" ignored="false" />
     <file path="/StopButton.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1397042997269" ignored="false" />
     <file path="D:/Work/Starcolony/Flash/src/main/flash/ru/mail/starcolony/safe/presentationservice/dto/SafeDTO.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1396869761276" ignored="false" />
@@ -175,21 +175,21 @@
     <file path="/ChoosePlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470669750437" ignored="false" />
     <file path="/UpdatePlaylistScrollIndexCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470669881837" ignored="false" />
     <file path="/UpdatePlaylistsCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470412078076" ignored="false" />
-    <file path="/PlaylistPhrase.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470731513852" ignored="false" />
+    <file path="/PlaylistPhrase.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954634584" ignored="false" />
     <file path="/SoundContextMenu.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470736457668" ignored="false" />
-    <file path="/CopySoundToAnotherPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470729177037" ignored="false" />
+    <file path="/CopySoundToAnotherPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471956432337" ignored="false" />
     <file path="/ActionType.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470661079053" ignored="false" />
-    <file path="/ActionData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470661143223" ignored="false" />
+    <file path="/ActionData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471956351441" ignored="false" />
     <file path="/LockView.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470664845509" ignored="false" />
     <file path="/BaseCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470671993912" ignored="false" />
     <file path="/OpenOwnerPageCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470669809477" ignored="false" />
     <file path="/SaveSoundCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470912359052" ignored="false" />
-    <file path="/DeleteSoundCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470922650858" ignored="false" />
+    <file path="/DeleteSoundCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471956506041" ignored="false" />
     <file path="/Settings.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470903626508" ignored="false" />
     <file path="/ShowLyricsCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470730064227" ignored="false" />
-    <file path="/PlaylistContextMenu.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470908668956" ignored="false" />
+    <file path="/PlaylistContextMenu.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471954675314" ignored="false" />
     <file path="/PlaylistSortingType.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470731493236" ignored="false" />
-    <file path="/SortPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470732009395" ignored="false" />
+    <file path="/SortPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471956755177" ignored="false" />
     <file path="/SoundGenreType.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470734133237" ignored="false" />
     <file path="/SoundViewData.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470831776689" ignored="false" />
     <file path="/SoundGenreContextMenu.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470736670574" ignored="false" />
@@ -199,8 +199,8 @@
     <file path="/FileSystemManager.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470750715564" ignored="false" />
     <file path="/LoginCompletedCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470747435378" ignored="false" />
     <file path="/coreComponentsConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470821717504" ignored="false" />
-    <file path="/LoadLocalPlaylistsCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470817827333" ignored="false" />
-    <file path="/Application.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470922679979" ignored="false" />
+    <file path="/LoadLocalPlaylistsCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471964348809" ignored="false" />
+    <file path="/Application.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471957633419" ignored="false" />
     <file path="/SettingsService.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470816876314" ignored="false" />
     <file path="/settingsConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470815254001" ignored="false" />
     <file path="/SettingsActionMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1470815196801" ignored="false" />
@@ -254,6 +254,8 @@
     <file path="/VolumeHint.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471953055680" ignored="false" />
     <file path="/HintViewMessage.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951703258" ignored="false" />
     <file path="/hintConfig.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471951880611" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471953574431" ignored="false" />
+    <file path="/RefreshPlaylistCommand.as" changelist="90c651ea-747c-47ff-a2d3-994efe629206" time="1471964362082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +270,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -303,6 +304,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -312,57 +314,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FriendsListView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/friends/view/FriendsListView.as">
+      <file leaf-file-name="RefreshPlaylistCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/playlistContextMenu/RefreshPlaylistCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="63" selection-start="3286" selection-end="3286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/player/view/PlayerView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="262" column="79" selection-start="8447" selection-end="8447" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HintBuilder.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="87" selection-start="2959" selection-end="2959" vertical-scroll-proportion="0.64176244">
+            <state line="35" column="37" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#99#136#0" expanded="true" />
+                <element signature="e#144#202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerSettings.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/settings/model/PlayerSettings.as">
+      <file leaf-file-name="LoadLocalPlaylistsCommand.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/LoadLocalPlaylistsCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="66" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
+            <state line="92" column="91" selection-start="3721" selection-end="3721" vertical-scroll-proportion="2.5402298">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerRequestCommandName.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/ServerRequestCommandName.as">
+      <file leaf-file-name="PlaylistData.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/model/PlaylistData.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="53" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
+            <state line="23" column="38" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerRemoteService.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/service/impl/ServerRemoteService.as">
+      <file leaf-file-name="SaveLocalPlaylistsCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/SaveLocalPlaylistsCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="99" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0">
+            <state line="12" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileSystemManager.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/FileSystemManager.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="24" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LightCommandAdapter.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="mock:///LightCommandAdapter.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -371,90 +373,16 @@
       <file leaf-file-name="ServerDataConverter.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/service/impl/ServerDataConverter.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="102" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+            <state line="12" column="36" selection-start="248" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerRequest.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/model/ServerRequest.as">
+      <file leaf-file-name="ClearPlaylistCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/playlistContextMenu/ClearPlaylistCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="76" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Settings.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Settings.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="85" selection-start="692" selection-end="726" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginCompletedCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/controller/LoginCompletedCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="41" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IApplicationService.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/service/IApplicationService.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationService.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/service/impl/ApplicationService.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="69" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationModel.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/model/ApplicationModel.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="66" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayHint.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/view/component/PlayHint.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="67" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#98#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultMessageProcessor.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="mock:///DefaultMessageProcessor.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HintPM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/view/pm/HintPM.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="21" selection-start="1818" selection-end="1827" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -462,19 +390,90 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HintViewMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/message/HintViewMessage.as">
+      <file leaf-file-name="IServerRemoteService.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/service/IServerRemoteService.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="76" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
+            <state line="21" column="30" selection-start="651" selection-end="664" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IHintView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/view/component/IHintView.as">
+      <file leaf-file-name="ServerRemoteService.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/service/impl/ServerRemoteService.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="97" column="0" selection-start="3822" selection-end="3822" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerRequestCommandName.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/ServerRequestCommandName.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="33" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReloadPlaylistCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/managers/server/command/items/ReloadPlaylistCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="69" selection-start="2516" selection-end="2546" vertical-scroll-proportion="-7.84">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionType.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/model/ActionType.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="28" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortPlaylistCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/playlistContextMenu/SortPlaylistCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="20" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#141#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopySoundToAnotherPlaylistCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/soundContextMenu/CopySoundToAnotherPlaylistCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="60" selection-start="3586" selection-end="3868" vertical-scroll-proportion="-19.4">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#152#197#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteSoundCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/soundContextMenu/DeleteSoundCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="42" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#137#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionData.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/model/ActionData.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -482,69 +481,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IHintView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/view/IHintView.as">
+      <file leaf-file-name="LoadUserPlaylistCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/soundContextMenu/LoadUserPlaylistCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="55" selection-start="106" selection-end="218" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayHint.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/view/PlayHint.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="59" selection-start="936" selection-end="1778" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VolumeHint.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/view/VolumeHint.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="17" selection-start="1334" selection-end="2367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloaderBuilder.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/downloader/view/builder/DownloaderBuilder.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="69" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="-12.92">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#143#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HintActionMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/message/HintActionMessage.as">
+      <file leaf-file-name="playlistConfig.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xml/playlistConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="77" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HintView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/view/HintView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="35" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#88#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hintConfig.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/hintConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="10" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0">
+            <state line="168" column="80" selection-start="8554" selection-end="8554" vertical-scroll-proportion="-7.12">
               <folding />
             </state>
           </provider>
@@ -553,115 +504,10 @@
       <file leaf-file-name="AllClasses.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AllClasses.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="50" selection-start="10604" selection-end="10604" vertical-scroll-proportion="0.0">
+            <state line="182" column="66" selection-start="8185" selection-end="8185" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="downloaderConfig.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/downloaderConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="3463" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VolumeHint.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/view/component/VolumeHint.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="67" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#100#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HintType.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hint/HintType.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="49" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HintManager.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/HintManager.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="21" selection-start="6643" selection-end="6730" vertical-scroll-proportion="-12.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerPM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/player/view/pm/PlayerPM.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayActiveSoundCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/player/controller/PlayActiveSoundCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="43" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeVolumeValueCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/player/controller/ChangeVolumeValueCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigForParsley.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ConfigForParsley.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="110" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playerConfig.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/playerConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="55" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChooseSoundCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/ChooseSoundCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="48" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playlistConfig.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/playlistConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="98" selection-start="2345" selection-end="2345" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -669,106 +515,98 @@
       <file leaf-file-name="PlaylistActionMessage.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/playlist/message/PlaylistActionMessage.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+            <state line="18" column="68" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatePlaylistCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/CreatePlaylistCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="69" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaylistPM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/playlist/view/pm/PlaylistPM.as">
+      <file leaf-file-name="SearcherActionMessage.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/searcher/message/SearcherActionMessage.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="29" selection-start="3619" selection-end="3619" vertical-scroll-proportion="0.0">
+            <state line="21" column="29" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchSoundsCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/searcher/controller/SearchSoundsCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="-17.6">
+              <folding>
+                <element signature="e#137#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IPlaylistsService.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/service/IPlaylistsService.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistsService.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/service/impl/PlaylistsService.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="251" column="41" selection-start="8583" selection-end="8583" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaylistView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/playlist/view/PlaylistView.as">
+      <file leaf-file-name="Application.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/Application.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="208" column="21" selection-start="8109" selection-end="8109" vertical-scroll-proportion="0.0">
+            <state line="126" column="73" selection-start="4928" selection-end="4928" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#93#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistMessage.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/playlist/message/PlaylistMessage.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="28" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginBuilder.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/view/builder/LoginBuilder.as">
+      <file leaf-file-name="BaseCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/command/BaseCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="60" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.0">
+            <state line="65" column="27" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/view/BaseView.as">
+      <file leaf-file-name="searcherConfig.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xml/searcherConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendsListViewBuilder.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/friends/view/builder/FriendsListViewBuilder.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="23" selection-start="2683" selection-end="2683" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendsListPM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/friends/view/pm/FriendsListPM.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="82" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/friends/view/item/FriendView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="46" selection-start="3746" selection-end="3746" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/friends/view/component/FriendView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="36" selection-start="1391" selection-end="1399" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendViewData.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/friends/view/data/FriendViewData.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="581" selection-end="591" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadingItemView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/downloader/view/component/DownloadingItemView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="78" selection-start="641" selection-end="654" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendsListView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/friends/view/FriendsListView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="43" selection-start="3234" selection-end="3703" vertical-scroll-proportion="0.0">
+            <state line="15" column="70" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -781,25 +619,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/hint/message/HintActionMessage.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/component/IHintView.as" />
-        <option value="$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/view/VolumeHint.as" />
-        <option value="$PROJECT_DIR$/src/hint/message/HintViewMessage.as" />
-        <option value="$PROJECT_DIR$/xml/hintConfig.xml" />
+        <option value="$PROJECT_DIR$/xml/searcherConfig.xml" />
+        <option value="$PROJECT_DIR$/src/application/playlist/controller/soundContextMenu/LoadUserPlaylistCommand.as" />
+        <option value="$PROJECT_DIR$/src/application/playlist/controller/soundContextMenu/CopySoundToAnotherPlaylistCommand.as" />
+        <option value="$PROJECT_DIR$/src/application/playlist/controller/soundContextMenu/DeleteSoundCommand.as" />
+        <option value="$PROJECT_DIR$/src/application/playlist/controller/playlistContextMenu/SortPlaylistCommand.as" />
+        <option value="$PROJECT_DIR$/src/application/playlist/model/ActionData.as" />
+        <option value="$PROJECT_DIR$/src/server/ServerRequestCommandName.as" />
+        <option value="$PROJECT_DIR$/src/server/service/impl/ServerRemoteService.as" />
+        <option value="$PROJECT_DIR$/src/server/service/IServerRemoteService.as" />
         <option value="$PROJECT_DIR$/src/AllClasses.as" />
-        <option value="$PROJECT_DIR$/src/application/player/controller/PlayActiveSoundCommand.as" />
-        <option value="$PROJECT_DIR$/src/application/player/controller/ChangeVolumeValueCommand.as" />
-        <option value="$PROJECT_DIR$/xml/playerConfig.xml" />
-        <option value="$PROJECT_DIR$/src/ConfigForParsley.as" />
-        <option value="$PROJECT_DIR$/src/login/model/ApplicationModel.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/pm/HintPM.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/HintView.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/component/PlayHint.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/component/VolumeHint.as" />
-        <option value="$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as" />
+        <option value="$PROJECT_DIR$/src/application/Application.as" />
+        <option value="$PROJECT_DIR$/xml/playlistConfig.xml" />
+        <option value="$PROJECT_DIR$/src/application/playlist/controller/LoadLocalPlaylistsCommand.as" />
+        <option value="$PROJECT_DIR$/src/application/playlist/controller/playlistContextMenu/RefreshPlaylistCommand.as" />
+        <option value="$PROJECT_DIR$/src/application/playlist/model/PlaylistData.as" />
+        <option value="$PROJECT_DIR$/src/application/playlist/service/impl/PlaylistsService.as" />
       </list>
     </option>
   </component>
@@ -809,7 +655,7 @@
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -836,6 +682,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -879,6 +726,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1340,7 +1205,487 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contextMenu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soundContextMenu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VKPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playlistContextMenu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1394,7 +1739,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1403,7 +1747,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1413,19 +1757,16 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="application.playlist.controller.playlistContextMenu" />
       <recent name="hint.message" />
       <recent name="hint.view.component" />
       <recent name="hint.view.pm" />
       <recent name="hint" />
-      <recent name="hint.view" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Tasks\VKPlayer\src\application\player\controller" />
@@ -1433,6 +1774,9 @@
       <recent name="D:\Tasks\VKPlayer\src\playlist\view\components\contextMenu" />
       <recent name="D:\Tasks\VKPlayer\src\playlist\controller\soundContextMenu" />
       <recent name="D:\Tasks\VKPlayer\src\player\view\items" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.VKPlayer">
@@ -1491,6 +1835,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
+    <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
+      <option name="BCName" value="" />
+      <option name="moduleName" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -1503,11 +1852,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
-      <option name="BCName" value="" />
-      <option name="moduleName" value="" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -1638,6 +1982,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3981588" sideWeight="0.9902081" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1652,7 +1997,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1714,7 +2058,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="172" />
+      <option name="time" value="177" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1722,126 +2066,129 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/settings/model/PlayerSettings.as">
+    <entry file="file://$PROJECT_DIR$/src/AllClasses.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="66" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
+        <state line="182" column="66" selection-start="8185" selection-end="8185" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/soundContextMenu/LoadUserPlaylistCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="-12.92">
+          <folding>
+            <element signature="e#143#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/message/PlaylistActionMessage.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="68" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/message/PlaylistMessage.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/ServerRequestCommandName.as">
+    <entry file="file://$PROJECT_DIR$/src/application/Application.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="53" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="126" column="73" selection-start="4928" selection-end="4928" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#93#151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/service/impl/ServerRemoteService.as">
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/CreatePlaylistCommand.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="99" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0">
+        <state line="52" column="69" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/service/impl/ServerDataConverter.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="102" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+        <state line="12" column="36" selection-start="248" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/ServerRequest.as">
+    <entry file="file://$PROJECT_DIR$/xml/playlistConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="76" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
+        <state line="168" column="80" selection-start="8554" selection-end="8554" vertical-scroll-proportion="-7.12">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Settings.as">
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/service/IPlaylistsService.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="85" selection-start="692" selection-end="726" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/controller/LoginCompletedCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="41" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/service/IApplicationService.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/service/impl/ApplicationService.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="69" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/model/ApplicationModel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="66" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hint/view/HintView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="35" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#88#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hint/view/pm/HintPM.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1818" selection-end="1827" vertical-scroll-proportion="0.0">
+        <state line="46" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hint/view/component/PlayHint.as">
+    <entry file="file://$PROJECT_DIR$/src/util/FileSystemManager.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="67" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#98#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hint/view/component/VolumeHint.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="67" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#100#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Testing/VKPlayer/src/application/hint/HintManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="21" selection-start="6643" selection-end="6730" vertical-scroll-proportion="-12.4">
+        <state line="53" column="24" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hint/view/builder/HintBuilder.as">
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/SaveLocalPlaylistsCommand.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="87" selection-start="2959" selection-end="2959" vertical-scroll-proportion="0.64176244">
+        <state line="12" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/model/ActionData.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#99#136#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/playlistContextMenu/RefreshPlaylistCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#144#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/model/PlaylistData.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="38" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/service/impl/PlaylistsService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="251" column="41" selection-start="8583" selection-end="8583" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/playlist/controller/LoadLocalPlaylistsCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="91" selection-start="3721" selection-end="3721" vertical-scroll-proportion="2.5402298">
+          <folding />
         </state>
       </provider>
     </entry>

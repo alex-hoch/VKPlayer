@@ -19,6 +19,7 @@ package application.searcher.message {
 		//  Variables
 		//--------------------------------------------------------------------------
 		public var text:String;
+		public var playlistId:Number;
 
 		//--------------------------------------------------------------------------
 		//  Public properties

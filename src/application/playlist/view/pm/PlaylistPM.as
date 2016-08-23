@@ -228,6 +228,10 @@ package application.playlist.view.pm {
 			_dispatcher(new PlaylistActionMessage(PlaylistActionMessage.DELETE_PLAYLIST));
 		}
 
+		public function refreshPlaylist():void {
+			_dispatcher(new PlaylistActionMessage(PlaylistActionMessage.REFRESH_PLAYLIST));
+		}
+
 		public function addToQueue():void {
 			_dispatcher(new PlaylistActionMessage(PlaylistActionMessage.ADD_SOUND_TO_QUEUE));
 		}

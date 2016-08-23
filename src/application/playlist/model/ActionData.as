@@ -15,7 +15,10 @@ package application.playlist.model {
 		//--------------------------------------------------------------------------
 		private var _type:int;
 		private var _text:String;
-		private var _id:Number;
+		private var _userId:Number;
+		private var _soundId:Number;
+		private var _playlistId:Number;
+		private var _sortingId:Number;
 
 		//--------------------------------------------------------------------------
 		//  Public properties
@@ -28,9 +31,21 @@ package application.playlist.model {
 
 		public function set text(value:String):void { _text = value; }
 
-		public function get id():Number { return _id; }
+		public function get userId():Number { return _userId; }
 
-		public function set id(value:Number):void { _id = value; }
+		public function set userId(value:Number):void { _userId = value; }
+
+		public function get soundId():Number { return _soundId; }
+
+		public function set soundId(value:Number):void { _soundId = value; }
+
+		public function get playlistId():Number { return _playlistId; }
+
+		public function set playlistId(value:Number):void { _playlistId = value; }
+
+		public function get sortingId():Number { return _sortingId; }
+
+		public function set sortingId(value:Number):void { _sortingId = value; }
 
 		//--------------------------------------------------------------------------
 		//  Protected properties

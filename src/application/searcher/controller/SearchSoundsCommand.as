@@ -6,6 +6,8 @@
  */
 
 package application.searcher.controller {
+	import application.playlist.service.IPlaylistsService;
+
 	import core.command.BaseCommand;
 
 	import application.playlist.message.PlaylistMessage;
@@ -13,6 +15,7 @@ package application.searcher.controller {
 	import application.playlist.model.ActionType;
 
 	import application.searcher.message.SearcherActionMessage;
+
 	import server.service.IServerDataConverter;
 	import server.service.IServerRemoteService;
 
@@ -26,6 +29,7 @@ package application.searcher.controller {
 		//--------------------------------------------------------------------------
 		private var _callback:Function;
 		private var _dispatcher:Function;
+		private var _playlistsService:IPlaylistsService;
 		private var _serverRemoteService:IServerRemoteService;
 		private var _serverDataConverter:IServerDataConverter;
 
@@ -33,6 +37,7 @@ package application.searcher.controller {
 		private var offset:int;
 
 		private var sounds:Array;
+		private var playlistId:Number;
 
 		//--------------------------------------------------------------------------
 		//  Public properties
@@ -40,6 +45,8 @@ package application.searcher.controller {
 		public function set callback(value:Function):void { _callback = value; }
 
 		public function set dispatcher(value:Function):void { _dispatcher = value; }
+
+		public function set playlistsService(value:IPlaylistsService):void { _playlistsService = value; }
 
 		public function set serverRemoteService(value:IServerRemoteService):void { _serverRemoteService = value; }
 
@@ -64,7 +71,7 @@ package application.searcher.controller {
 		//  Public methods
 		//--------------------------------------------------------------------------
 		public function execute(message:SearcherActionMessage):void {
-			trace('-=> search:', message.text);
+			playlistId = message.playlistId;
 			lockApplication('searching');
 
 			sounds = [];
@@ -73,16 +80,20 @@ package application.searcher.controller {
 		}
 
 		public function result(data:Object = null):void {
-			var message:PlaylistMessage = new PlaylistMessage(PlaylistMessage.CREATE_PLAYLIST);
-			message.title = keyWord;
-			message.sounds = sounds;
-			var action:ActionData = new ActionData();
-			action.type = ActionType.SEARCH_PHRASE;
-			action.text = keyWord;
-			message.action = action;
-			_dispatcher(message);
+			if (playlistId) {
+				_playlistsService.fillPlaylist(playlistId, sounds);
+			} else {
+				var message:PlaylistMessage = new PlaylistMessage(PlaylistMessage.CREATE_PLAYLIST);
+				message.title = keyWord;
+				message.sounds = sounds;
+				var action:ActionData = new ActionData();
+				action.type = ActionType.SEARCH_PHRASE;
+				action.text = keyWord;
+				message.action = action;
+				_dispatcher(message);
 
-			unlockApplication();
+				unlockApplication();
+			}
 		}
 
 		//--------------------------------------------------------------------------
@@ -101,17 +112,17 @@ package application.searcher.controller {
 		//--------------------------------------------------------------------------
 		private function searchResultHandler(data:Object):void {
 			var response:Array = data.response;
-			if(!response) {
+			if (!response) {
 				// TODO parse error
 			}
 			var length:int = response ? response.length : 0;
-			for(var i:int = 0; i<length; i++) {
-				if(!isNaN(response[i])) continue;
+			for (var i:int = 0; i < length; i++) {
+				if (!isNaN(response[i])) continue;
 				sounds[sounds.length] = _serverDataConverter.convertSoundData(response[i]);
 			}
 
 			offset += 1;
-			if(offset < 5) {
+			if (offset < 5) {
 				sendRequest();
 			} else {
 				_callback(true);

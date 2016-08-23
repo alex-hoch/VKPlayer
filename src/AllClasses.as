@@ -11,6 +11,7 @@ package {
 	import application.playlist.controller.AddSoundToQueueCommand;
 	import application.playlist.controller.RemoveSoundFromQueueCommand;
 	import application.playlist.controller.SaveLocalPlaylistsCommand;
+	import application.playlist.controller.playlistContextMenu.RefreshPlaylistCommand;
 
 	import core.view.ViewRegistrationManager;
 
@@ -179,6 +180,7 @@ package {
 			allClasses[allClasses.length] = ChoosePlaylistCommand;
 			allClasses[allClasses.length] = UpdatePlaylistScrollIndexCommand;
 			allClasses[allClasses.length] = UpdatePlaylistsCommand;
+			allClasses[allClasses.length] = RefreshPlaylistCommand;
 			allClasses[allClasses.length] = CopySoundToAnotherPlaylistCommand;
 			allClasses[allClasses.length] = DeleteSoundCommand;
 			allClasses[allClasses.length] = ShowLyricsCommand;

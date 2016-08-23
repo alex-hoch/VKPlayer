@@ -13,6 +13,7 @@
 	<map-command message-type="application.searcher.message.SearcherActionMessage" selector="search">
 		<command type="application.searcher.controller.SearchSoundsCommand">
             <message-dispatcher property="dispatcher"/>
+            <property name="playlistsService" id-ref="playlistsService"/>
             <property name="serverRemoteService" id-ref="serverRemoteService"/>
             <property name="serverDataConverter" id-ref="serverDataConverter"/>
 		</command>

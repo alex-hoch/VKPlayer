@@ -55,5 +55,7 @@ package application.playlist.service {
 		function getSoundInQueuePosition(soundId:Number, playlistId:Number):int;
 
 		function getPlaylistById(playlistId:Number):PlaylistData;
+
+		function fillPlaylist(playlistId:Number, sounds:Array):void;
 	}
 }

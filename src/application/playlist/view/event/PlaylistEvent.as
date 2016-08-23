@@ -27,6 +27,7 @@ package application.playlist.view.event {
 		public static const SAVE_PLAYLIST:String = 'savePlaylist';
 		static public const CLEAR_PLAYLIST:String = 'clearPlaylist';
 		static public const DELETE_PLAYLIST:String = 'deletePlaylist';
+		static public const REFRESH_PLAYLIST:String = 'reloadPlaylist';
 
 		public var itemId:Number;
 		public var genreId:Number;

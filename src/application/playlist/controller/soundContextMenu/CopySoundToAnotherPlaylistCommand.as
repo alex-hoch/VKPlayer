@@ -5,6 +5,10 @@
  * Time: 15:02
  */
 package application.playlist.controller.soundContextMenu {
+	import application.playlist.model.ActionData;
+	import application.playlist.model.ActionType;
+	import application.playlist.model.PlaylistData;
+
 	import core.command.BaseCommand;
 
 	import login.service.IApplicationService;
@@ -79,6 +83,12 @@ package application.playlist.controller.soundContextMenu {
 				_serverRemoteService.addSoundInVKPlaylist(sound.id, sound.ownerId, serverResponseCallback);
 				lockApplication('add sound in vk');
 			} else {
+				var playlistData:PlaylistData = _playlistsService.getPlaylistById(newPlaylistId);
+				var action:ActionData = new ActionData();
+				action.type = ActionType.ADD_SOUND;
+				action.soundId = newSound.id;
+				action.userId = newSound.ownerId;
+				playlistData.actionsList.push(action);
 				_callback(true);
 			}
 		}

@@ -103,6 +103,14 @@ package server.service.impl {
 			addRequest(request);
 		}
 
+		public function loadAudioInfo(userId:Number, soundId:Number, callback:Function):void {
+			var request:ServerRequest = new ServerRequest();
+			request.commandName = ServerRequestCommandName.GET_AUDIO_INFO;
+			request.params = 'audios=' + userId + '_' + soundId;
+			request.callback = callback;
+			addRequest(request);
+		}
+
 		//--------------------------------------------------------------------------
 		//  Protected methods
 		//--------------------------------------------------------------------------

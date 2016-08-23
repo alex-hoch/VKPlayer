@@ -25,6 +25,7 @@ package application.playlist.message {
 		public static const SORT_PLAYLIST:String = 'sortPlaylist'
 		public static const CLEAR_PLAYLIST:String = 'clearPlaylist'
 		public static const DELETE_PLAYLIST:String = 'deletePlaylist'
+		public static const REFRESH_PLAYLIST:String = 'refreshPlaylist';
 		public static const ADD_SOUND_TO_QUEUE:String = 'addSoundToQueue';
 		public static const REMOVE_SOUND_FROM_QUEUE:String = 'removeSoundFromQueue';
 

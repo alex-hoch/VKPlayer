@@ -17,11 +17,9 @@ package server {
 		public static const DELETE_AUDIO:String = 'audio.delete';
 		public static const GET_SOUND_TEXT:String = 'audio.getLyrics';
 		public static const GET_USER_FRIENDS:String = 'friends.get';
-/*
 		public static const GET_AUDIO_INFO:String = 'audio.getById';
 
-
-
+/*
 		public static const SAVE_DATA:String = 'storage.set';
 		public static const LOAD_DATA:String = 'storage.get';
  */

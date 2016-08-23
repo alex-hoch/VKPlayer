@@ -18,5 +18,7 @@ package server.service {
 		function loadSoundLyrics(lyricsId:Number, callback:Function):void;
 
 		function loadFriends(userId:Number, callback:Function):void;
+
+		function loadAudioInfo(userId:Number, soundId:Number, callback:Function):void;
 	}
 }

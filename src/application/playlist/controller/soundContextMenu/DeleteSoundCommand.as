@@ -5,6 +5,10 @@
  * Time: 18:13
  */
 package application.playlist.controller.soundContextMenu {
+	import application.playlist.model.ActionData;
+	import application.playlist.model.ActionType;
+	import application.playlist.model.PlaylistData;
+
 	import core.command.BaseCommand;
 
 	import application.playlist.message.PlaylistActionMessage;
@@ -58,6 +62,10 @@ package application.playlist.controller.soundContextMenu {
 				lockApplication('delete sound from vk');
 				_serverRemoteService.deleteSoundFromVKPlaylist(sound.id, sound.ownerId, _callback);
 			} else {
+				var action:ActionData = new ActionData();
+				action.type = ActionType.DELETE_SOUND;
+				action.soundId = sound.id;
+				_playlistsService.openedPlaylist.actionsList.push(action);
 				_callback(true);
 			}
 		}

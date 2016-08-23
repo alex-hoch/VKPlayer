@@ -21,7 +21,7 @@ package application.playlist.model {
 		private var _selectedSoundId:Number;
 		private var _playingSoundId:Number;
 		private var _scrollPosition:Number;
-		private var _actionsList:Vector.<ActionData>;
+		private var _actionsList:Array;
 		private var _sortingType:int;
 
 		//--------------------------------------------------------------------------
@@ -51,9 +51,9 @@ package application.playlist.model {
 
 		public function set scrollPosition(value:Number):void { _scrollPosition = value; }
 
-		public function get actionsList():Vector.<ActionData> { return _actionsList; }
+		public function get actionsList():Array { return _actionsList; }
 
-		public function set actionsList(value:Vector.<ActionData>):void { _actionsList = value; }
+		public function set actionsList(value:Array):void { _actionsList = value; }
 
 		public function get sortingType():int { return _sortingType; }
 

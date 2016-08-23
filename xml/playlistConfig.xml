@@ -19,6 +19,7 @@
     <command-factory id="loadUserPlaylistCommand">
         <command type="application.playlist.controller.soundContextMenu.LoadUserPlaylistCommand">
             <message-dispatcher property="dispatcher"/>
+            <property name="playlistsService" id-ref="playlistsService"/>
             <property name="applicationService" id-ref="applicationService"/>
             <property name="serverRemoteService" id-ref="serverRemoteService"/>
             <property name="serverDataConverter" id-ref="serverDataConverter"/>
@@ -155,6 +156,20 @@
         <command-sequence>
             <command type="application.playlist.controller.RemoveSoundFromQueueCommand">
                 <property name="playlistsService" id-ref="playlistsService"/>
+            </command>
+            <command-ref id-ref="updatePlaylistsCommand"/>
+        </command-sequence>
+    </map-command>
+
+    <map-command selector="refreshPlaylist" message-type="application.playlist.message.PlaylistActionMessage">
+        <command-sequence>
+            <command type="application.playlist.controller.playlistContextMenu.RefreshPlaylistCommand">
+                <message-dispatcher property="dispatcher"/>
+                <property name="playlistsService" id-ref="playlistsService"/>
+                <property name="serverDataConverter" id-ref="serverDataConverter"/>
+                <property name="serverRemoteService" id-ref="serverRemoteService"/>
+                <command-result method="finishSearching" selector="search" type="application.searcher.message.SearcherActionMessage"/>
+                <command-result method="finishLoadingUserSounds" selector="loadUserPlaylist" type="application.playlist.message.PlaylistActionMessage"/>
             </command>
             <command-ref id-ref="updatePlaylistsCommand"/>
         </command-sequence>

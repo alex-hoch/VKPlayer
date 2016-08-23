@@ -59,7 +59,7 @@ package application.playlist.controller {
 			var list:Vector.<Object> = _fileSystemManager.loadPlaylists();
 			var playlistData:PlaylistData;
 			var sounds:Array;
-			var actions:Vector.<ActionData>;
+			var actionsList:Array;
 			var soundData:SoundData;
 			for (var i:int = 0; i < list.length; i++) {
 				playlistData = new PlaylistData();
@@ -83,13 +83,21 @@ package application.playlist.controller {
 					sounds[sounds.length] = soundData;
 				}
 				playlistData.sounds = sounds;
-				actions = new Vector.<ActionData>();
+				actionsList = [];
+				var action:ActionData;
 				if (list[i].actionsList) {
 					for (j = 0; j < list[i].actionsList.length; j++) {
-						// TODO fill actions
+						action = new ActionData();
+						action.type = list[i].actionsList[j].type;
+						action.userId = list[i].actionsList[j].userId;
+						action.soundId = list[i].actionsList[j].soundId;
+						action.playlistId = list[i].actionsList[j].playlistId;
+						action.sortingId = list[i].actionsList[j].sortingId;
+						action.text = list[i].actionsList[j].text;
+						actionsList[actionsList.length] = action;
 					}
 				}
-				playlistData.actionsList = actions;
+				playlistData.actionsList = actionsList;
 				_playlistsService.addPlaylist(playlistData);
 			}
 			_playlistsService.choosePlaylist(_settingsService.openedPlaylistId);

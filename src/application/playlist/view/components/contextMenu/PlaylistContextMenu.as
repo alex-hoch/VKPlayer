@@ -24,6 +24,7 @@ package application.playlist.view.components.contextMenu {
 		private var sortMenu:NativeMenu;
 		private var clearItem:NativeMenuItem;
 		private var deleteItem:NativeMenuItem;
+		private var reloadItem:NativeMenuItem;
 
 		//--------------------------------------------------------------------------
 		//  Public properties
@@ -54,6 +55,8 @@ package application.playlist.view.components.contextMenu {
 			this.addItem(clearItem);
 			deleteItem = new NativeMenuItem(PlaylistPhrase.DELETE);
 			this.addItem(deleteItem);
+			reloadItem = new NativeMenuItem(PlaylistPhrase.REFRESH);
+			this.addItem(reloadItem);
 
 			this.addEventListener(Event.SELECT, selectHandler);
 		}
@@ -110,6 +113,9 @@ package application.playlist.view.components.contextMenu {
 						break;
 					case PlaylistPhrase.SAVE:
 						eventType = PlaylistEvent.SAVE_PLAYLIST;
+						break;
+					case PlaylistPhrase.REFRESH:
+						eventType = PlaylistEvent.REFRESH_PLAYLIST;
 						break;
 				}
 				customEvent = new PlaylistEvent(eventType, true);

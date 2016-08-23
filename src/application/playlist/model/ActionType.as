@@ -12,7 +12,7 @@ package application.playlist.model {
 		static public const SEARCH_PHRASE:int = 1;
 		static public const LOAD_USER_PLAYLIST:int = 2;
 		static public const ADD_SOUND:int = 3;
-		static public const REMOVE_SOUND:int = 4;
+		static public const DELETE_SOUND:int = 4;
 		static public const SORT:int = 5;
 
 		//--------------------------------------------------------------------------

@@ -6,6 +6,7 @@
  */
 package application {
 	import application.playlist.message.PlaylistActionMessage;
+	import application.playlist.message.PlaylistMessage;
 
 	import downloader.message.DownloaderActionMessage;
 
@@ -121,6 +122,9 @@ package application {
 						break;
 					case Keyboard.U:
 						_dispatcher(new FriendsActionMessage(FriendsActionMessage.OPEN_FRIENDS_LIST));
+						break;
+					case Keyboard.N:
+						_dispatcher(new PlaylistMessage(PlaylistMessage.CREATE_PLAYLIST));
 						break;
 				}
 			}

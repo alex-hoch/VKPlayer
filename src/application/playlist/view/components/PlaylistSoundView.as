@@ -17,10 +17,14 @@ package application.playlist.view.components {
 	import application.playlist.view.data.SoundViewData;
 	import application.playlist.view.event.PlaylistEvent;
 
+	import flash.text.TextFormat;
+	import flash.text.TextFormatAlign;
+
 	public class PlaylistSoundView extends Sprite implements IBaseListItem {
 		//--------------------------------------------------------------------------
 		//  Constants
 		//--------------------------------------------------------------------------
+		private const DURATION_TF_WIDTH:int = 40;
 
 		//--------------------------------------------------------------------------
 		//  Variables
@@ -85,11 +89,21 @@ package application.playlist.view.components {
 			} else {
 				title.text = '';
 			}
-			duration.width = duration.textWidth + 5;
+			//			duration.width = duration.textWidth + 5;
 			duration.x = _width - duration.width;
 			title.width = duration.x;
 			updateBackground();
 			this.buttonMode = Boolean(soundData);
+			var fmt:TextFormat;
+
+			var isBold:Boolean = soundData ? soundData.playing : false;
+			fmt = title.defaultTextFormat;
+			fmt.bold = isBold;
+			title.defaultTextFormat = fmt;
+
+			fmt = duration.defaultTextFormat;
+			fmt.bold = isBold;
+			duration.defaultTextFormat = fmt;
 		}
 
 		public function destroy():void {
@@ -104,10 +118,7 @@ package application.playlist.view.components {
 		//  Private methods
 		//--------------------------------------------------------------------------
 		private function draw():void {
-			this.graphics.beginFill(0x000000, 0);
-			this.graphics.lineStyle(1, 0x000000);
-			this.graphics.drawRect(0, 0, _width, _height);
-			this.graphics.endFill();
+			updateBackground();
 
 			title = TextUtils.getNewTextField({
 				size:       12,
@@ -134,14 +145,13 @@ package application.playlist.view.components {
 				italic:     false,
 				wordWrap:   false,
 				multiline:  false,
-				autoSize:   TextFieldAutoSize.NONE
-				//								type		:		TextFieldType.DYNAMIC,
-				//								align		:		TextFormatAlign.LEFT
+				autoSize:   TextFieldAutoSize.NONE,
+				align:      TextFormatAlign.CENTER
 			});
 			duration.selectable = false;
-			duration.width = 40;
+			duration.width = DURATION_TF_WIDTH;
 			duration.height = _height;
-			duration.border = true;
+			//			duration.border = true;
 			duration.x = title.x + title.width;
 			this.addChild(duration);
 		}
@@ -170,6 +180,8 @@ package application.playlist.view.components {
 			this.graphics.drawRect(0, 0, _width, _height);
 			this.graphics.endFill();
 
+			this.graphics.moveTo(_width - DURATION_TF_WIDTH, 0);
+			this.graphics.lineTo(_width - DURATION_TF_WIDTH, _height);
 		}
 
 		private function startListen():void {

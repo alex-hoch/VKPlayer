@@ -144,6 +144,7 @@ package application.playlist.view {
 			playlistContextMenu.addEventListener(PlaylistEvent.SAVE_PLAYLIST, savePlaylistHandler);
 			playlistContextMenu.addEventListener(PlaylistEvent.CLEAR_PLAYLIST, clearPlaylistHandler);
 			playlistContextMenu.addEventListener(PlaylistEvent.DELETE_PLAYLIST, deletePlaylistHandler);
+			playlistContextMenu.addEventListener(PlaylistEvent.REFRESH_PLAYLIST, refreshPlaylistHandler);
 
 			stage.addEventListener(Event.RESIZE, resizeHandler);
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, keyHandler);
@@ -280,6 +281,10 @@ package application.playlist.view {
 
 		private function deletePlaylistHandler(event:PlaylistEvent):void {
 			_playlistPM.deletePlaylist();
+		}
+
+		private function refreshPlaylistHandler(event:PlaylistEvent):void {
+			_playlistPM.refreshPlaylist();
 		}
 	}
 }
